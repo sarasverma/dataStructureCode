@@ -74,11 +74,11 @@ int main()
     // n4 n5
 
     // other representation for tree
-    //      r
+    //      3
     //     / \
-    //   n2  n3
+    //   12   5
     //   /\
-    // n4 n5
+    //  8  9
     preorder(root);
     printf("\n");
 
