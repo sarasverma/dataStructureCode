@@ -1,0 +1,9 @@
+for ll - rotate right wrt 1st imbalanced node
+for rr - rotate left wrt 1st imbalanced node
+
+for lr - left rotate(wrt child of imbalanced in path of inserted node) then right rotate (wrt 1st imbalance node)
+for rl - right rotate(wrt child of imbalanced in path of inserted node) then left rotate (wrt 1st imbalance node)
+
+***note***
+for finding imbalnce search from bottom of the path
+(path of the insertion)
