@@ -1,0 +1,4 @@
+Graph can be represented using following things
+** Adjacent Matrix (array)
+** Adjacent List (Linked representation)
+Incident Matrix (array)
