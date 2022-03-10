@@ -86,7 +86,7 @@ void delete (struct node *node, int key)
         // swap predecessor and temp
         temp->data = temp1->data;
         if (temp1 == parent1)
-            temp->left = temp->left;
+            temp->left = temp1->left;
 
         // if left child exists
         else if (temp1->left != NULL)
