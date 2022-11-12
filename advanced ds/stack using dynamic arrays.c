@@ -18,7 +18,7 @@ int isEmpty(){
 int isFull(){
 	if(top == capacity - 1){
 		capacity *= 2; // double capacity
-		s = (struct stack *)realloc(s, capacity);
+		s = (struct stack *)realloc(s, capacity*sizeof(struct stack));
 	}
 }
 
@@ -39,7 +39,7 @@ int pop(){
 }
 
 void traverse(){
-	if(top == -1 )
+	if(isEmpty())
 		printf("Stack empty !\n");
 	else{
 		for(i = top; i >= 0; --i)
